@@ -1,0 +1,19 @@
+{
+  "name": "@onespeed/no-zone.js",
+  "version": "1.0.0",
+  "description": "No Zone.js allows you to use zone.js API without actually using it. (recommended for advanced use cases only)",
+  "main": "index.js",
+  "author": "PatrickJS <patrick@onespeed.io>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onespeed-io/no-zone.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onespeed-io/no-zone.js/issues"
+  },
+  "homepage": "https://github.com/onespeed-io/no-zone.js#readme"
+}
