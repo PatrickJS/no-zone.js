@@ -2,9 +2,36 @@
 No Zone.js allows you to use zone.js API without actually using it. (recommended for advanced use cases only)
 
 
-`npm install @onespeed/no-zone.js`
+```bash
+npm install @onespeed/no-zone.js
+```
 
-`import '@onespeed/no-zone.js'`
+```typescript
+import '@onespeed/no-zone.js';
+```
+
+Example
+```typescript
+// ... in your main.js file
+import '@onespeed/no-zone.js';
+
+// ... in your components
+import {
+  // ...
+  ChangeDetectorRef
+} from '@angular/core';
+// ...
+  constructor(public changeDetector: ChangeDetectorRef) {
+  }
+
+// ...
+  add() {
+    // ...
+    this.changeDetector.detectChanges();
+  }
+// ...
+
+```
 
 
 ___
