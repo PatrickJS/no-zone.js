@@ -1,5 +1,5 @@
 # no-zone.js
-No Zone.js allows you to use zone.js API without actually using it. (recommended for advanced use cases only)
+No Zone.js allows you to provide the zone.js API without actually using it if you actually don't use zone.js. (Recommended for advanced use cases only)
 
 
 ```bash
